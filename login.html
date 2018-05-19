@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/all2.css" />
+		<link rel="stylesheet" href="css/normalize.css" />
+	</head>
+	<body style="font: 12px/20px "微软雅黑","宋体",Arial,Verdana,"Lucida Grande","Lucida Sans Unicode",Helvetica,sans-serif;
+    color: #666;
+    background: #FFF none repeat scroll 0 0;
+    min-width: 1200px;">
+		<!--头部-->
+		<div class="login_header">
+			<div class="login_header_wapper">
+				<a href="index.html" class="login_header_left"><img src="img/123.jpg"/></a>
+				<span>
+					• &nbsp;欢 迎 登 录
+				</span>
+				<a href="index.html" class="login_header_right">返回首页</a>
+			</div>
+		</div>
+		<!--头部-->
+		<!--登录-->
+		<div class="login_main">
+			<div class="login_header_wapper">
+				<div class="login_main_left"><img src=""></div>
+				<div class="login_main_right">
+					<h3>用户登录</h3>
+					<form action="php/login.php" method="post">
+						<div class="login_main_content">
+							<p class="login_main_content_info ">
+								<span>用户名</span>
+								<input type="text" name="tel" placeholder="手机号/会员名称/邮箱" id="tel" />
+								
+							</p>
+							<p class="login_main_content_info pass">
+								<span>密&nbsp;&nbsp;&nbsp;&nbsp;码</span>
+								<input type="password" name="password" placeholder="请输入密码" id="pwd"/>
+								<em class="er"style="display: none;font-style: normal;color: red;margin-left:65px;font-size: 11px;">密码格式错误</em>
+							</p>
+							<p class="login_main_content_sub">
+								<input type="submit" class="submit" value="登&nbsp;&nbsp;&nbsp;录" name="Submit">
+							</p>
+							<p class="login_main_content_tit">
+								<a class="login_main_content_miss" href="#">忘记密码？</a>
+								<span class="login_main_content_tit_l">还不是本站会员？立即</span>
+								<a href="register.html"class="login_main_content_reg">注册</a>
+							</p>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!--登录-->
+		<!--底部-->
+		<div class="footer">
+			<div class="footer_top">
+				<div class="footer_top_img">
+					<a href="#"><img src="img/mz-footer.png"></a>
+				</div>
+				<div class="footer_top_link clearfix">
+					<div class="clearfix">
+						<dl>
+							<dt>帮助中心</dt>
+							<dd><a href="#">购物流程</a></dd>
+							<dd><a href="#">查看已买商品</a></dd>
+							<dd><a href="#">交易须知</a></dd>
+						</dl>
+						<dl>
+							<dt>支付方式</dt>
+							<dd><a href="#">在线支付</a></dd>
+							<dd><a href="#">发票保证</a></dd>
+						</dl>
+						<dl>
+							<dt>售货服务</dt>
+							<dd><a href="#">联系卖家</a></dd>
+							<dd><a href="#">申请退款</a></dd>
+							<dd><a href="#">退换货政策</a></dd>
+						</dl>
+						<dl>
+							<dt>商家服务</dt>
+							<dd><a href="#">商家中心</a></dd>
+							<dd><a href="#">商家入驻</a></dd>
+						</dl>
+						<dl>
+							<dt>客服中心</dt>
+							<dd><a href="#">联系我们</a></dd>
+							<dd><a href="#">关于我们</a></dd>
+						</dl>
+					</div>
+				</div>
+			</div>
+			<div class="footer_bottom">
+				<div class="footer_bottom_warrp">
+					<div class="footer_bottom_nav">
+					    <p>
+						 <a href="#">首页</a>
+						 <span>|</span>
+						 <a href="#">合作及洽谈</a>
+						 <span>|</span>
+						 <a href="#">联系我们</a>
+						 <span>|</span>
+						 <a href="#">关于我们</a>
+						 <span>|</span>
+						 <a href="#">回到顶部</a>
+						 <span>|</span>
+					    </p>
+					    <p>
+						 <strong>合作伙伴：</strong>
+					     <a href="#">美逊商城</a>
+					     <a href="#">优优阳光旗舰店</a>
+					     <a href="#">美逊微博</a>
+					     <a href="#">济南办公用品配送</a>
+					    </p>
+					    <p class="pleace">
+						 <span><img src="img/mz_FootImgInfo4.png"></span>
+						 <span><img src="img/mz_FootImgInfo5.png"></span>
+					    </p>
+					     <p style="font-size: 11px;">
+						      编号： 鲁ICP备13025849号-1   美逊版权所有   邮箱：mayzone360@163.com
+					     </p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--底部-->
+		<script src="js/jquery-2.1.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/login.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

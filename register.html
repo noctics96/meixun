@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/all2.css" />
+		<link rel="stylesheet" href="css/normalize.css" />
+	</head>
+	<body style="background-color: #fafafa;">
+		<!--头部-->
+		<div class="header">
+				<a href="index.html"><img src="img/si-logo.png"></a>
+				<span>我已经注册，马上<a href="login.html">登录></a></span>
+		</div>
+		<!--头部-->
+		<!--注册-->
+		<div class="main">
+			<div class="mainbox">
+				<div class="main_nav">
+					<p>用户注册</p>
+				</div>
+				<div class="main_reg">
+					<form action="PHP/reg.php" method="post">
+						<div class="main_reg_wp phone"style="height: 46px;">
+							<div class="main_reg_wp_leader">请手机号码</div>
+							<input type="text" id="user_name" name="tel" class="si-text" placeholder="请输入您的手机号码" style="color: rgb(128, 128, 128);">
+						    <div class="red">手机号码错误</div>
+						    <div class="green"></div>
+						</div>
+						<div class="main_reg_wp password" style="height: 90px;">
+							<div class="main_reg_wp_leader">请输入密码</div>
+							<input type="password" placeholder="请设置6-25位密码，可由英文、数字及标点符号组成" style="color:#808080;" class="si-text si-password" name="password">
+						    <div class="red">密码错误</div>
+						    <div class="green"></div>
+						    <div class="si-yz-b" id="si-yz-c1" style="margin-left:100px ;"></div>
+						    <div class="si-yz-b" id="si-yz-c2"></div>
+						    <div class="si-yz-b" id="si-yz-c3"></div>
+						    <div class="dj">
+						    	<div class="si-yz-text"> 弱</div>
+						    	<div class="si-yz-text"> 中</div>
+						    	<div class="si-yz-text"> 强</div>
+						    </div>
+						</div>
+						<div class="main_reg_wp con-password"style="height: 46px;">
+							<div class="main_reg_wp_leader">请输入密码</div>
+							<input type="password" placeholder="请再次输入密码" class="si-text si-password" style="color:#808080;" id="password1">
+						    <div class="red">密码不同</div>
+						    <div class="green"></div>
+						</div>
+						<div class="main_reg_wp_sub">
+							<input type="submit" value="注册" name="submit"  class="sub_reg"/>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!--注册-->
+		<!--底部-->
+		<div class="footer">
+			<div class="footer_top">
+				<div class="footer_top_img">
+					<a href="#"><img src="img/mz-footer.png"></a>
+				</div>
+				<div class="footer_top_link clearfix">
+					<div class="clearfix">
+						<dl>
+							<dt>帮助中心</dt>
+							<dd><a href="#">购物流程</a></dd>
+							<dd><a href="#">查看已买商品</a></dd>
+							<dd><a href="#">交易须知</a></dd>
+						</dl>
+						<dl>
+							<dt>支付方式</dt>
+							<dd><a href="#">在线支付</a></dd>
+							<dd><a href="#">发票保证</a></dd>
+						</dl>
+						<dl>
+							<dt>售货服务</dt>
+							<dd><a href="#">联系卖家</a></dd>
+							<dd><a href="#">申请退款</a></dd>
+							<dd><a href="#">退换货政策</a></dd>
+						</dl>
+						<dl>
+							<dt>商家服务</dt>
+							<dd><a href="#">商家中心</a></dd>
+							<dd><a href="#">商家入驻</a></dd>
+						</dl>
+						<dl>
+							<dt>客服中心</dt>
+							<dd><a href="#">联系我们</a></dd>
+							<dd><a href="#">关于我们</a></dd>
+						</dl>
+					</div>
+				</div>
+			</div>
+			<div class="footer_bottom">
+				<div class="footer_bottom_warrp">
+					<div class="footer_bottom_nav">
+					    <p>
+						 <a href="#">首页</a>
+						 <span>|</span>
+						 <a href="#">合作及洽谈</a>
+						 <span>|</span>
+						 <a href="#">联系我们</a>
+						 <span>|</span>
+						 <a href="#">关于我们</a>
+						 <span>|</span>
+						 <a href="#">回到顶部</a>
+						 <span>|</span>
+					    </p>
+					    <p>
+						 <strong>合作伙伴：</strong>
+					     <a href="#">美逊商城</a>
+					     <a href="#">优优阳光旗舰店</a>
+					     <a href="#">美逊微博</a>
+					     <a href="#">济南办公用品配送</a>
+					    </p>
+					    <p class="pleace">
+						 <span><img src="img/mz_FootImgInfo4.png"></span>
+						 <span><img src="img/mz_FootImgInfo5.png"></span>
+					    </p>
+					     <p style="font-size: 11px;">
+						      编号： 鲁ICP备13025849号-1   美逊版权所有   邮箱：mayzone360@163.com
+					     </p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--底部-->
+		<script src="js/jquery-2.1.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/reg.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

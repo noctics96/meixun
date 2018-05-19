@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/all2.css" />
+		<link rel="stylesheet" href="css/normalize.css" />
+	</head>
+	<body>
+		<!--头部-->
+		<div class="header_d">
+			<div class="header_d_wapper">
+				<div class="header_d_left">
+					<i><img src="img/jia.png"></i>
+					<a href="index.html" alt="首页" title="首页">美逊首页</a>
+					<a class="t-d" href="#" title="首页">您好，欢迎来到美逊</a>
+					<a href="login.html" class="login_a">请登录</a>
+					<a href="register.html" class="reg_a">免费注册</a>
+				</div>				
+				<div class="header_d_right">
+					<dl>
+						<dt><a><b>站点导航</b></a></dt>
+					</dl>
+					<dd>
+						<ul>
+							<li>
+								<a href="#">品牌</a>
+							</li>
+						</ul>
+					</dd>
+					<dl>
+						<dt><a><b>客户服务</b></a></dt>
+					</dl>
+					<dd>
+						<ul>
+							<li>
+								<a href="#">帮助中心</a>
+							</li>
+							<li>
+								<a href="#">售后服务</a>
+							</li>
+							<li>
+								<a href="#">客服中心</a>
+							</li>
+						</ul>
+					</dd>
+					<dl>
+						<dt><a><b>我是卖家</b></a></dt>
+					</dl>
+					<dd>
+						<ul>
+							<li>
+								<a href="#">卖家中心</a>
+							</li>
+							<li>
+								<a href="#">实物交易</a>
+							</li>
+							<li>
+								<a href="#">商品发布</a>
+							</li>
+							<li>
+								<a href="#">店铺设置</a>
+							</li>
+						</ul>
+					</dd>
+					<dl>
+						<dt><a><b>我的收藏</b></a></dt>
+					</dl>
+					<dd>
+						<ul>
+							<li>
+								<a href="#">商品收藏</a>
+							</li>
+							<li>
+								<a href="#">店铺收藏收藏</a>
+							</li>
+						</ul>
+					</dd>
+					<dl>
+						<dt><a><b>我是买家</b></a></dt>
+					</dl>
+					<dd>
+						<ul>
+							<li>
+								<a href="#">我的订单</a>
+							</li>
+							<li>
+								<a href="#">代付款订单</a>
+							</li>
+							<li>
+								<a href="#">待收货订单</a>
+							</li>
+							<li>
+								<a href="#">待交易评价</a>
+							</li>
+						</ul>
+					</dd>
+					<dl>
+						<dt><a><b>购物车</b></a></dt>
+					</dl>
+				</div>
+			</div>
+		</div>
+		<!--头部-->
+		<!--头部-->
+		<div class="nav_c">
+			<div class="nav_c_logo">
+				<a href="index.html">
+					<img src="img/logo.jpg" />
+				</a>
+			</div>
+			<ul class="nav_c_flow">
+				<li>
+					<i class="step1"></i>
+					<p>我的购物车</p>
+					<sub></sub>
+					<div class="hr"></div>
+				</li>
+				<li>
+					<i class="step2"></i>
+					<p>填写核对购物信息</p>
+					<sub></sub>
+					<div class="hr"></div>
+				</li>
+				<li>
+					<i class="step3"></i>
+					<p>支付提交</p>
+					<sub></sub>
+					<div class="hr"></div>
+				</li>
+				<li>
+					<i class="step4"></i>
+					<p>订单完成</p>
+					<sub></sub>
+					<div class="hr"></div>
+				</li>
+			</ul>
+		</div>
+		<!--头部-->
+		<!--内容-->
+		<div class="main_c">
+			<div class="main_c_box">
+				<div class="main_c_title">
+					<h3>我的购物车</h3>
+					<h5>查看购物车商品清单，增加减少商品数量，并勾选想要的商品进入下一步操作。</h5>
+				</div>
+				<form id="form_buy">
+					<div class="cart">
+						<table>
+							<tr>
+								<td><input type="checkbox" class="inp all check" />全选</td>
+								<td>商品名称</td>
+								<td>单价(元)</td>
+								<td>数量</td>
+								<td>小计(元)</td>
+								<td>操作</td>
+							</tr>
+							<tr class="goods">
+								<td>
+									<input type="checkbox" class="inp check" />
+									<a href="register.html" class="img"><img src="" style="width: 42px;"/></a>
+								</td>
+								<td class="decs">
+									<a href="register.html" style="color: #666666;">text</a>
+								</td>
+								<td class="price">
+									0
+								</td>
+								<td class="amount">
+									<a href="javascrpit:;" id="jian">-</a>
+									<input type="number" value="1" />
+									<a href="javascrpit:;" id="jia">+</a>
+								</td>
+								<td class="total">
+									<strong class="color">0</strong>
+								</td>
+								<td class="total">
+									<p>
+										<a href="javascript:;" style="color: #333333;">收藏</a>
+									</p>
+									<p>
+										<a href="javascript:;" class="delete"style="color: #333333;">删除</a>
+									</p>
+								</td>
+							</tr>
+						</table>
+						<ul class="bot">
+							<a href="index.html" class="con">继续购物</a>
+							<a href="" class="empty" style="color: #DF3A00;">清空购物车</a>
+							<ul class="count">
+								<li>
+									<strong>商品总价（不含运费）：</strong><i>￥</i>
+									<span class="color">0.00</span>
+								</li>
+							</ul>
+						</ul>
+					</div>
+				</form>
+				<div class="main_c_bottom">
+					<a href="#" id="next_submit">
+						<i class="icon_pen"></i>
+						下一步，填写核对购物信息
+					</a>
+				</div>
+				<div class="youlike">
+					<div class="youlike_box">
+						<div class="youlike_title">猜您喜欢的宝贝</div>
+						<div class="youlike_goods">
+							<div class="noguess">暂无商品向您推荐</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--内容-->
+		<!--底部-->
+		<div class="footer">
+			<div class="footer_top">
+				<div class="footer_top_img">
+					<a href="#"><img src="img/mz-footer.png"></a>
+				</div>
+				<div class="footer_top_link clearfix">
+					<div class="clearfix">
+						<dl>
+							<dt>帮助中心</dt>
+							<dd><a href="#">购物流程</a></dd>
+							<dd><a href="#">查看已买商品</a></dd>
+							<dd><a href="#">交易须知</a></dd>
+						</dl>
+						<dl>
+							<dt>支付方式</dt>
+							<dd><a href="#">在线支付</a></dd>
+							<dd><a href="#">发票保证</a></dd>
+						</dl>
+						<dl>
+							<dt>售货服务</dt>
+							<dd><a href="#">联系卖家</a></dd>
+							<dd><a href="#">申请退款</a></dd>
+							<dd><a href="#">退换货政策</a></dd>
+						</dl>
+						<dl>
+							<dt>商家服务</dt>
+							<dd><a href="#">商家中心</a></dd>
+							<dd><a href="#">商家入驻</a></dd>
+						</dl>
+						<dl>
+							<dt>客服中心</dt>
+							<dd><a href="#">联系我们</a></dd>
+							<dd><a href="#">关于我们</a></dd>
+						</dl>
+					</div>
+				</div>
+			</div>
+			<div class="footer_bottom">
+				<div class="footer_bottom_warrp">
+					<div class="footer_bottom_nav">
+					    <p>
+						 <a href="#">首页</a>
+						 <span>|</span>
+						 <a href="#">合作及洽谈</a>
+						 <span>|</span>
+						 <a href="#">联系我们</a>
+						 <span>|</span>
+						 <a href="#">关于我们</a>
+						 <span>|</span>
+						 <a href="#">回到顶部</a>
+						 <span>|</span>
+					    </p>
+					    <p>
+						 <strong>合作伙伴：</strong>
+					     <a href="#">美逊商城</a>
+					     <a href="#">优优阳光旗舰店</a>
+					     <a href="#">美逊微博</a>
+					     <a href="#">济南办公用品配送</a>
+					    </p>
+					    <p class="pleace">
+						 <span><img src="img/mz_FootImgInfo4.png"></span>
+						 <span><img src="img/mz_FootImgInfo5.png"></span>
+					    </p>
+					     <p style="font-size: 11px;">
+						      编号： 鲁ICP备13025849号-1   美逊版权所有   邮箱：mayzone360@163.com
+					     </p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--底部-->
+		<script src="js/jquery-2.1.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/cart.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
